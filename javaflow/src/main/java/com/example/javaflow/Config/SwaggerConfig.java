@@ -1,4 +1,4 @@
-package com.example.auth_service.Config;
+package com.example.javaflow.Config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

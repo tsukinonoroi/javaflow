@@ -1,4 +1,4 @@
-package com.example.auth_service.Exceptions;
+package com.example.javaflow.Exceptions;
 
 import lombok.Data;
 

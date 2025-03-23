@@ -1,4 +1,4 @@
-package com.example.auth_service.DTO;
+package com.example.javaflow.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,12 +1,12 @@
-package com.example.auth_service.Service;
+package com.example.javaflow.Service;
 
-import com.example.auth_service.DTO.JwtRequest;
-import com.example.auth_service.DTO.JwtResponse;
-import com.example.auth_service.DTO.RegistrationUserDTO;
-import com.example.auth_service.DTO.UserDTO;
-import com.example.auth_service.Exceptions.AppError;
-import com.example.auth_service.Model.User;
-import com.example.auth_service.Util.JwtTokenUtil;
+import com.example.javaflow.DTO.JwtRequest;
+import com.example.javaflow.DTO.JwtResponse;
+import com.example.javaflow.DTO.RegistrationUserDTO;
+import com.example.javaflow.DTO.UserDTO;
+import com.example.javaflow.Exceptions.AppError;
+import com.example.javaflow.Model.User;
+import com.example.javaflow.Util.JwtTokenUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,6 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Service

@@ -1,18 +1,14 @@
-package com.example.auth_service.Controller;
+package com.example.javaflow.Controller;
 
-import com.example.auth_service.DTO.JwtRequest;
+import com.example.javaflow.DTO.JwtRequest;
 
-import com.example.auth_service.DTO.RegistrationUserDTO;
+import com.example.javaflow.DTO.RegistrationUserDTO;
 
-import com.example.auth_service.Service.AuthService;
-import com.example.auth_service.Service.UserService;
-import com.example.auth_service.Util.JwtTokenUtil;
+import com.example.javaflow.Service.AuthService;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
 
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

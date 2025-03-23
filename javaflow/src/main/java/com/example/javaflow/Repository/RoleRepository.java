@@ -1,6 +1,6 @@
-package com.example.auth_service.Repository;
+package com.example.javaflow.Repository;
 
-import com.example.auth_service.Model.Role;
+import com.example.javaflow.Model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,18 +1,15 @@
-package com.example.auth_service.Service;
+package com.example.javaflow.Service;
 
-import com.example.auth_service.Config.PasswordEncoderConfiguration;
-import com.example.auth_service.DTO.RegistrationUserDTO;
-import com.example.auth_service.Model.User;
-import com.example.auth_service.Repository.RoleRepository;
-import com.example.auth_service.Repository.UserRepository;
+import com.example.javaflow.Config.PasswordEncoderConfiguration;
+import com.example.javaflow.DTO.RegistrationUserDTO;
+import com.example.javaflow.Model.User;
+import com.example.javaflow.Repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

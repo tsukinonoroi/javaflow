@@ -1,10 +1,9 @@
-package com.example.auth_service.Model;
+package com.example.javaflow.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Collection;
-import java.util.List;
 
 @Table(name = "users")
 @Data

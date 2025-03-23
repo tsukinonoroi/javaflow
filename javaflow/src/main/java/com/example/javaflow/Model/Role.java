@@ -1,4 +1,4 @@
-package com.example.auth_service.Model;
+package com.example.javaflow.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;

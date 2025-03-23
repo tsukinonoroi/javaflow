@@ -1,6 +1,6 @@
-package com.example.auth_service.Config;
+package com.example.javaflow.Config;
 
-import com.example.auth_service.Util.JwtTokenUtil;
+import com.example.javaflow.Util.JwtTokenUtil;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.SignatureException;

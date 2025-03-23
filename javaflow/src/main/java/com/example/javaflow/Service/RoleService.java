@@ -1,7 +1,7 @@
-package com.example.auth_service.Service;
+package com.example.javaflow.Service;
 
-import com.example.auth_service.Model.Role;
-import com.example.auth_service.Repository.RoleRepository;
+import com.example.javaflow.Model.Role;
+import com.example.javaflow.Repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
